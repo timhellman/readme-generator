@@ -1,30 +1,65 @@
 // function to generate markdown for README
 function generatemarkdown(answers) {
   return `# Description of Application
+  \`\`\`
   ${answers.description}
+  \`\`\`
+
+
+
 
   ## Table Of Contents
+  \`\`\`
   ${answers.tableofcontents}
+  \`\`\`
 
-  # Installation Instructions
+
+
+
+  ### Installation Instructions
   \`\`\`
   ${answers.installation}
   \`\`\`
 
-  # Usage Information
+
+
+
+  ### Usage Information
+  \`\`\`
   ${answers.usage}
+  \`\`\`
 
-  # License For Application
+
+
+
+  ### License For Application
+  \`\`\`
   ${answers.license}
+  \`\`\`
 
-  # Contribution Guidelines
+
+
+
+  ### Contribution Guidelines
+  \`\`\`
   ${answers.contribution}
+  \`\`\`
 
-  # Test Instructions
+
+
+
+  ### Test Instructions
+  \`\`\`
   ${answers.test}
+  \`\`\`
 
-  # Additional Questions for the User
+
+
+  
+  ### Additional Questions for the User
+  \`\`\`
   ${answers.additionalquestions}
+  \`\`\`
 `;
 }
 

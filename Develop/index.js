@@ -6,6 +6,7 @@ var something = {}
 // array of questions for user
 const questions = [
   {
+    type: "input",
     message: "Please write a short description for your application.",
     name: "description",
     default: "this is the best app!"
@@ -14,7 +15,8 @@ const questions = [
     type: "input",
     message: "List your table of contents here",
     name: "tableofcontents",
-    default: "something , something, dark side"
+    default: "none necessary"
+    
   },
   {
     type: "input",
@@ -26,27 +28,31 @@ const questions = [
     type: "input",
     message: "Usage information",
     name: "usage",
-    default: "just do it!"
+    default: "Just go for it!"
   },
   {
     type: "input",
     message: "License for application",
-    name: "license"
+    name: "license",
+    default: "None"
   },
   {
     type: "input",
     message: "Contribution guidelines",
-    name: "contribution"
+    name: "contribution",
+    default: "None"
   },
   {
     type: "input",
     message: "Test instructions",
-    name: "test"
+    name: "test",
+    default: "None"
   },
   {
     type: "input",
     message: "Additional user questions",
-    name: "additionalquestions"
+    name: "additionalquestions",
+    default: "None"
   }
 ];
 
