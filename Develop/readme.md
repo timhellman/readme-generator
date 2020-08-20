@@ -1,6 +1,6 @@
 # Description of Application
   ```
-  this is the best app!
+  This is a demo of how my ReadMe Generator works
   ```
 
 
